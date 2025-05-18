@@ -3,7 +3,7 @@ import hashlib
 import pyfiglet
 import time
 
-# ASCII banner oluşturmak için pyfiglet kullanıyoruz
+
 def print_banner():
     ascii_banner = pyfiglet.figlet_format("PASSWORD GEN")
     print(ascii_banner)
